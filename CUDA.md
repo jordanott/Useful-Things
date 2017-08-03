@@ -9,15 +9,18 @@ sudo apt install nvidia-375
 sudo reboot
 ```
 ## Install Cuda ##
+Download Cuda toolkit [here](https://developer.nvidia.com/cuda-downloads)
 ```
-
+sudo sh cuda_8.0.61_375.26_linux.run
 nano .bashrc
 export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 ## Install Cudnn ##
+Download Cudnn [here](https://developer.nvidia.com/rdp/cudnn-download)
 ```
-cd folder/extracted/contents
+tar -xvzf cudnn-8.0-linux-x64-v5.1.tgz 
+cd cuda
 sudo cp -P include/cudnn.h /usr/include
 sudo cp -P lib64/libcudnn* /usr/lib/x86_64-linux-gnu/
 sudo chmod a+r /usr/lib/x86_64-linux-gnu/libcudnn*
