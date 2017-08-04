@@ -1,3 +1,5 @@
+For Ubuntu 14.04 and above 
+
 ## Upgrade Cuda driver ##
 ```
 sudo apt purge nvidia-*** nvidia-settings
