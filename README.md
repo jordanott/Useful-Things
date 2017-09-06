@@ -14,3 +14,6 @@ tar -xvzf pip-9.0.1.tar.gz
 cd pip-9.0.1
 sudo python setup.py install
 ```
+
+### OpenCV Ubuntu 16.04 with CUDA ###
+[Instructions](https://gist.github.com/filitchp/5645d5eebfefe374218fa2cbf89189aa)
