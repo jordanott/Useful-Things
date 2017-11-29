@@ -17,3 +17,6 @@ sudo python setup.py install
 
 ### OpenCV Ubuntu 16.04 with CUDA ###
 [Instructions](https://gist.github.com/filitchp/5645d5eebfefe374218fa2cbf89189aa)
+
+### Upgrade Cmake to 3.9 ###
+[Instructions](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
