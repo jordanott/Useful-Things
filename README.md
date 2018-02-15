@@ -20,3 +20,6 @@ sudo python setup.py install
 
 ### Upgrade Cmake to 3.9 ###
 [Instructions](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
+
+### Convert all pngs to eps in directory ###
+mogrify -format eps *.png  
