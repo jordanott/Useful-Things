@@ -23,3 +23,6 @@ sudo python setup.py install
 
 ### Convert all pngs to eps in directory ###
 mogrify -format eps *.png  
+
+### Download files from GoogleDrive via terminal  
+[Instructions](https://webapps.stackexchange.com/questions/126394/cant-download-large-file-from-google-drive-as-one-single-folder-always-splits)
